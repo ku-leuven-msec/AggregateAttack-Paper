@@ -1,0 +1,10 @@
+name: AggregateAttack
+channels:
+  - gurobi
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.1
+  - pandas=2.2.1
+  - gurobi=10.0.1
+  - tqdm==4.66.2
